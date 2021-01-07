@@ -60,14 +60,24 @@ body:after {
     background: rgba(0, 0, 0, 0.2); }
 
 .btn {
-  font-size: 12px;
+  left: 165px;
+  top: 320px;
+  position: absolute;
   text-transform: uppercase;
   border-radius: 30px;
-  padding: 10px 30px; }
+  padding: 10px 30px; 
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+text-transform: lowercase;
+
+  }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
+    position: absolute;
   .btn.btn-primary {
     background: #6f42c1;
     border-color: #6f42c1;
@@ -615,7 +625,7 @@ body:after {
   .hero-v1 .heading {
     position: relative;
     left: 100px;
-    top: 5px;
+    top: -20px;
     width: 346px;
     height: 254px;
     font-family: Merriweather;
@@ -641,7 +651,9 @@ body:after {
   .hero-v1 .illustration {
     position: relative;
     margin-top: -100px;
-    position: absolute; }
+    position: absolute;
+    width: 65%;
+  height: 65%; }
   .hero-v1 .illustration-2 {
     position: relative;
     margin-top: -200px;
