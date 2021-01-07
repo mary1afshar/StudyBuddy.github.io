@@ -1,0 +1,17 @@
+
+
+.done
+{
+  text-decoration: line-through;
+}
+
+.input-form
+{
+  padding-top: 1em;
+}
+
+.add
+{
+    background:  #9063e4;
+    color: azure;
+}
