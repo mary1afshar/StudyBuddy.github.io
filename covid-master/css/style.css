@@ -650,15 +650,10 @@ text-transform: lowercase;
     font-weight: 900; }
   .hero-v1 .illustration {
     position: relative;
-<<<<<<< HEAD
-    margin-top: -200px;
-    position: absolute; }
-=======
     margin-top: -100px;
     position: absolute;
     width: 65%;
   height: 65%; }
->>>>>>> 2826ef6ea227f22a809a6c3c901797f038709159
   .hero-v1 .illustration-2 {
     position: relative;
     margin-top: -200px;
