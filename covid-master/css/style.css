@@ -613,12 +613,24 @@ body:after {
   background: rgba(111, 66, 193, 0.1);
   overflow: hidden; }
   .hero-v1 .heading {
-    font-weight: 900;
-    color: #6f42c1;
-    font-size: 40px; }
-    @media (max-width: 991.98px) {
-      .hero-v1 .heading {
-        font-size: 30px; } }
+    left: 903px;
+    top: 250px;
+    width: 346px;
+    height: 254px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 83px;
+    line-height: 110px;
+    color: #A09CEA;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.23em;
+    text-transform: lowercase;
+    font-feature-settings: 'numr' on, 'dnom' on, 'kern' off;
+    
   .hero-v1 .subheading {
     font-size: 12px;
     text-transform: uppercase;
