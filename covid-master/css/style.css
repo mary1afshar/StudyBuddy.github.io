@@ -279,10 +279,24 @@ body:after {
     width: 100%; }
 
 /* Navbar */
-.site-logo {
-  font-size: 20px;
-  font-weight: bold; }
+.logo img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: left;
+    width: 36px;
+    height: 30px;
+  }
 
+.logo{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #A09CEA;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
@@ -588,6 +602,9 @@ body:after {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
         color: #6f42c1 !important; }
+
+
+  
 
 /* Blocks */
 .hero-v1 {
