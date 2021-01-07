@@ -315,8 +315,7 @@ text-transform: lowercase;
   width: 100%; }
   .site-navbar .site-logo {
     position: relative;
-    left: 0; 
-    }
+    left: 0; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
@@ -640,8 +639,9 @@ text-transform: lowercase;
     text-align: center;
     letter-spacing: 0.23em;
     text-transform: lowercase;
-    font-feature-settings: 'numr' on, 'dnom' on, 'kern' off;
+    font-feature-settings: 'numr' on, 'dnom' on, 'kern' off; }
     
+   
   .hero-v1 .subheading {
     font-size: 12px;
     text-transform: uppercase;
@@ -650,20 +650,17 @@ text-transform: lowercase;
     font-weight: 900; }
   .hero-v1 .illustration {
     position: relative;
-    margin-top: -100px;
+    margin-top: -150px;
     position: absolute;
-    width: 65%;
-  height: 65%; }
+    width: 76%;
+    height: 76%;
+    left: 0.22%;
+    right: 96.45%;
+    }
   .hero-v1 .illustration-2 {
     position: relative;
     margin-top: -200px;
     position: absolute; }
-
-    .hero-v1 .meet{
-      position: relative;
-      max-width: 200px;
-
-    }
 
 .slide-item, .cover {
   background-size: cover;
