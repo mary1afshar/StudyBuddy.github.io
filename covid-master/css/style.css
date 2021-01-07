@@ -305,8 +305,7 @@ body:after {
   width: 100%; }
   .site-navbar .site-logo {
     position: relative;
-    left: 0; 
-    }
+    left: 0; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
@@ -615,7 +614,7 @@ body:after {
   .hero-v1 .heading {
     position: relative;
     left: 100px;
-    top: 5px;
+    top: -20px;
     width: 346px;
     height: 254px;
     font-family: Merriweather;
@@ -630,8 +629,9 @@ body:after {
     text-align: center;
     letter-spacing: 0.23em;
     text-transform: lowercase;
-    font-feature-settings: 'numr' on, 'dnom' on, 'kern' off;
+    font-feature-settings: 'numr' on, 'dnom' on, 'kern' off; }
     
+   
   .hero-v1 .subheading {
     font-size: 12px;
     text-transform: uppercase;
@@ -640,18 +640,12 @@ body:after {
     font-weight: 900; }
   .hero-v1 .illustration {
     position: relative;
-    margin-top: -100px;
+    margin-top: -200px;
     position: absolute; }
   .hero-v1 .illustration-2 {
     position: relative;
     margin-top: -200px;
     position: absolute; }
-
-    .hero-v1 .meet{
-      position: relative;
-      max-width: 200px;
-
-    }
 
 .slide-item, .cover {
   background-size: cover;
