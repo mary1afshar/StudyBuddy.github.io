@@ -613,8 +613,9 @@ body:after {
   background: rgba(111, 66, 193, 0.1);
   overflow: hidden; }
   .hero-v1 .heading {
-    left: 903px;
-    top: 250px;
+    position: relative;
+    left: 100px;
+    top: 5px;
     width: 346px;
     height: 254px;
     font-family: Merriweather;
@@ -645,6 +646,12 @@ body:after {
     position: relative;
     margin-top: -200px;
     position: absolute; }
+
+    .hero-v1 .meet{
+      position: relative;
+      max-width: 200px;
+
+    }
 
 .slide-item, .cover {
   background-size: cover;
