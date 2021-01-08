@@ -60,7 +60,7 @@ body:after {
     background: rgba(0, 0, 0, 0.2); }
 
 .btn {
-  left: 185px;
+  left: 165px;
   top: 320px;
   position: absolute;
   text-transform: uppercase;
@@ -73,20 +73,6 @@ font-size: 20px;
 text-transform: lowercase;
 
   }
-  .btn1 {
-    left: 210px;
-    top: 560px;
-    position: absolute;
-    text-transform: uppercase;
-    border-radius: 30px;
-    padding: 10px 30px; 
-    font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  text-transform: lowercase;
-  
-    }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
@@ -673,7 +659,7 @@ text-transform: lowercase;
       }
   .hero-v1 .illustration1 {
     position: relative;
-    top: -280px;
+    top: -350px;
     position: absolute;
     width: 76%;
     height: 76%;
