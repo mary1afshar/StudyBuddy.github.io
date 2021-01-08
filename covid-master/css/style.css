@@ -650,11 +650,11 @@ text-transform: lowercase;
     font-weight: 900; }
     .hero-v1 .illustration{
       position: relative;
-      top: -150px;
+      top: 30px;
+      left: 70px;
       position: absolute;
       width: 76%;
       height: 76%;
-      left: 0.22%;
       right: 96.45%;
       }
   .hero-v1 .illustration1 {
