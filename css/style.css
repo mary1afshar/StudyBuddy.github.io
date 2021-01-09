@@ -71,8 +71,25 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 text-transform: lowercase;
-
   }
+
+  .btn2 {
+    color: azure;
+    left: 5px;
+    top: 0px;
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 30px; 
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: lowercase;
+    }
+
+  
+
   .btn1 {
     left: 210px;
     top: 560px;
@@ -87,6 +104,12 @@ text-transform: lowercase;
   text-transform: lowercase;
   
     }
+
+    .btn2.btn-primary {
+      background: #6f42c1;
+      border-color: #6f42c1;
+      color: #fff; }
+    
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
